@@ -64,6 +64,10 @@ main
   background-color: #23a5ea;
 }
 
+.github img {
+  width: 50px;
+}
+
 
 /*******/
 .App {

@@ -9,6 +9,7 @@ import Iconefleche from '../images/iconefleche.png';
 import Compteurreact from '../images/compteurreact.png';
 import Argophp from '../images/argophp.jpg';
 import Stickers from '../images/stikers.jpg';
+import Github from '../images/github.png';
 
 const Main = () => {
     return(
@@ -86,6 +87,10 @@ const Main = () => {
                                     </section>
                                     <button class="bcompetences">Php et PhpMyAdmin</button>
                                 </div>
+
+                                <div className="github">
+                                    <a href={"https://github.com/delphine38/stickersphp"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
+                                </div>
                                     <h1>Stickers php bientot</h1>
                             </div>       
                         </article>
@@ -104,6 +109,9 @@ const Main = () => {
                                         <button class="bcompetences">html</button>
                                         <button class="bcompetences">Javascript</button>
                                         <button class="bcompetences">Lien du github</button>
+                                </div>
+                                <div className="github">
+                                    <a href={"https://github.com/delphine38/testdecalculjavascript"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
                                 </div>
                                 <h5 class="text-left">Application pour réviser ses Maths</h5>
                             </div>
@@ -137,6 +145,22 @@ const Main = () => {
                 </div>
 
             </section>
+
+            <div class="contact pt-5">
+                <div id="contact">
+                    <a class="text-white" href={"https://www.linkedin.com/in/delphine-rodriguez/"} target="_blank">
+                        <h4 class="text-center pt-5 mb-5">Contactez-moi : Via Linkedin 🙂 </h4>
+                    </a>
+
+                    <p class="text-center">Ou par mail : delphine38@live.fr</p>
+                </div>
+            </div>
+            <div class="github pb-5 text-center">
+                <a href={"https://github.com/delphine38"} target="_blank">
+                    <p>Bienvenue sur Mon lien GitHub</p>
+                </a>
+
+            </div>
         </div>
     );
 }
