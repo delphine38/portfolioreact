@@ -32,7 +32,32 @@ main
   width: 20%;
 }
 
+/*********
+          realisation
+***************/
+.realisation article {
+  border-radius: 20px;
+  padding-bottom: 50px;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
 
+.realisation img {
+  width: 100%;
+
+}
+
+.fleche img {
+  width: 10%;
+}
+
+.bcompetences {
+  border: 1px solid #23a5ea;
+  border-radius: 25%;
+  background-color: #23a5ea;
+}
 
 
 /*******/
