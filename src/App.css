@@ -13,9 +13,21 @@ header
 /*********
 main
 **********/
+.main {
+  background-color: rgb(182, 165, 165);
+  color: white;
+}
+
 /*********
     compétences
     **********/
+.competences p:hover {
+  color: rgb(18, 18, 110);
+  font-weight: bold;
+  font-size: 150%;
+  transition: 1s;
+}
+
 .competences img {
   width: 20%;
 }
