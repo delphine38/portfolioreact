@@ -35,7 +35,7 @@ main
 /*********
           realisation
 ***************/
-.realisation article {
+.article {
   border-radius: 20px;
   padding-bottom: 50px;
   justify-content: center;
@@ -47,6 +47,11 @@ main
 .realisation img {
   width: 100%;
 
+}
+
+.image img {
+  box-shadow: 2px 2px 5px 5px white;
+  border: 1px solid white;
 }
 
 .fleche img {

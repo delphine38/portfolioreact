@@ -61,7 +61,7 @@ const Main = () => {
 
                     <div class="container-fluid row  d-flex justify-content-center">
 
-                        <article class="col-sm-3 col-lg-3">
+                        <article class="article col-sm-3 col-lg-3">
                             <div class="justify-content-center h-100">
                                 <div class="image row justify-content-center  h-80 d-flex flex-wrap align-items-center mt-2">
                                     <img src={Argophp} alt="Argonautes en php" />
@@ -78,16 +78,16 @@ const Main = () => {
 
                         <article class="col-sm-3 col-lg-3">
                             <div class="justify-content-center h-100">
-                                <div class="image row justify-content-center  h-80 d-flex flex-wrap align-items-center mt-2"></div>
+                                <div class="image row justify-content-center  h-80 d-flex flex-wrap align-items-center mt-2">
                                     <img src={Stickers} alt="Stickers en php" />
                                 </div>
                                 <div class="text-center mt-2">
                                     <section class="fleche">
-                                        
                                     </section>
                                     <button class="bcompetences">Php et PhpMyAdmin</button>
                                 </div>
                                     <h1>Stickers php bientot</h1>
+                            </div>       
                         </article>
 
                         <article class="col-sm-3 col-lg-3">
@@ -112,12 +112,15 @@ const Main = () => {
                         <article class="col-sm-3 col-lg-3">
                             <div class="justify-content-center h-100">
                             <div class="image row justify-content-center  h-80 d-flex flex-wrap align-items-center mt-2">
-                                <a href="#" target="_blank"><img src={Compteurreact} alt="compteur en react" />
+                                <a href={"https://delphine38.github.io/compteurreact"} target="_blank"><img src={Compteurreact} alt="compteur en react" />
                                 </a>
-
-                                <a href={"https://delphine38.github.io/compteurreact/"} target="_blank"><img src={Iconefleche}
-                                    alt="compteur en react" />
-                                </a>
+                            </div>
+                            <div class="text-center mt-2">
+                                <section class="fleche">
+                                    <a href={"https://delphine38.github.io/compteurreact/"} target="_blank"><img src={Iconefleche}
+                                        alt="compteur en react" />
+                                    </a>
+                                </section>
                             
                             </div>
                             <div class="text-center mt-2">
