@@ -10,6 +10,19 @@ header
   border-radius: 100%;
 }
 
+/*********
+main
+**********/
+/*********
+    compétences
+    **********/
+.competences img {
+  width: 20%;
+}
+
+
+
+
 /*******/
 .App {
   text-align: center;
