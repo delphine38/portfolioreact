@@ -3,7 +3,6 @@ import React from "react";
 import Figma from '../images/figma.png';
 import Vscode from '../images/vscode.png';
 import WebStorm from '../images/webStorm.png';
-import Mysql from '../images/mySql.png';
 import Mathsjs from '../images/mathsjs.png';
 import Iconefleche from '../images/iconefleche.png';
 import Compteurreact from '../images/compteurreact.png';
@@ -24,7 +23,7 @@ const Main = () => {
                     <h3 class="text-center pt-5 mb-5 pe-5 me-5" id="realisationcompetences">Mes compétences</h3>
                         <div class="row flex-wrap text-center">
                             <article class="competences col-sm-3 col-lg-3">
-                                <h2><ul>Maquettage</ul></h2>
+                                <h2><u>Maquettage</u></h2>
                                 <h4>Figma</h4>
                                 <img src={Figma} alt="figma" />
                             </article>
