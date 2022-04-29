@@ -21,7 +21,7 @@ main
 /*********
     compétences
     **********/
-.competences p:hover {
+.competences h4:hover {
   color: rgb(18, 18, 110);
   font-weight: bold;
   font-size: 150%;
@@ -44,15 +44,16 @@ main
   margin-bottom: 50px;
 }
 
-.realisation img {
-  width: 100%;
+/* .realisation img {
+  width: 80%;
 
-}
+} */
 
 .image img {
   box-shadow: 2px 2px 5px 5px white;
   border: 1px solid white;
 }
+
 
 .fleche img {
   width: 10%;
@@ -108,4 +109,35 @@ main
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/****************
+    média querys
+    mobile
+***************/
+@media (max-width: 991px) {
+  .logo img {
+    width: 60%;
+  }
+
+  .delphine img {
+    justify-content: left;
+    width: 30%;
+  }
+
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* .competences {
+    margin: 30px;
+  } */
+
+
+  .image a img {
+    width: 80%;
+  }
+
 }

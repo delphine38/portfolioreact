@@ -23,8 +23,8 @@ const Header = () => {
                         <h4>Région Lyonnaise et remote</h4>
                         <p>Motivée et dynamique, 😉 je prends plaisir à coder et à m'améliorer pour accroître mes
                             compétences dans ce monde merveilleux du numérique. <br />
-                            Curieuse de la découverte et de l'utilisation d'autres langages,
-                            react, vue.js.</p>
+                            Curieuse de la découverte et de l'utilisation des langages :
+                            React.js, ReactNative, Vue.js.</p>
                     </section>
 
 
