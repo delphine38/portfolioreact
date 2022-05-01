@@ -68,7 +68,9 @@ const Main = () => {
                                 </div>
                                 <div class="text-center mt-2">
                                     <section class="fleche">
-                                        
+                                        <section class="fleche">
+                                        <a href={"http://delphinerodriguezdev.fr/argophp/"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
+                                    </section>
                                     </section>
                                     <button class="bcompetences">Php et PhpMyAdmin</button>
                                 </div>
@@ -86,6 +88,7 @@ const Main = () => {
                                 </div>
                                 <div class="text-center mt-2">
                                     <section class="fleche">
+                                        <a href={"http://delphinerodriguezdev.fr/stickersphp/"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
                                     </section>
                                     <button class="bcompetences">Php et PhpMyAdmin</button>
                                 </div>
@@ -105,12 +108,9 @@ const Main = () => {
                                 <div class="text-center mt-2">
                                     <section class="fleche">
                                         <a href={"https://delphine38.github.io/testdecalculjavascript"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
-                                        
-                                        {/* il y aura image fleche et lien */}
                                     </section>
                                         <button class="bcompetences">html</button>
                                         <button class="bcompetences">Javascript</button>
-                                        <button class="bcompetences">Lien du github</button>
                                 </div>
                                 <div className="github">
                                     <a href={"https://github.com/delphine38/testdecalculjavascript"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
@@ -125,14 +125,14 @@ const Main = () => {
                                 <a href={"https://delphine38.github.io/compteurreact"} target="_blank"><img src={Compteurreact} alt="compteur en react" />
                                 </a>
                             </div>
-                            <div class="text-center mt-2">
+                            {/* <div class="text-center mt-2">
                                 <section class="fleche">
                                     <a href={"https://delphine38.github.io/compteurreact/"} target="_blank"><img src={Iconefleche}
                                         alt="compteur en react" />
                                     </a>
                                 </section>
-                            
-                            </div>
+                            </div> */}
+
                             <div class="text-center mt-2">
                                 <button class="bcompetences">react</button>
                             </div>
