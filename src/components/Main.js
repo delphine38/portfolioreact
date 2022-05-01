@@ -64,7 +64,7 @@ const Main = () => {
                         <article class="article col-sm-3 col-lg-3">
                             <div class="justify-content-center p-3">
                                 <div class="image row justify-content-center d-flex flex-wrap align-items-center mt-2">
-                                    <img src={Argophp} alt="Argonautes en php" />
+                                  <a href={"http://delphinerodriguezdev.fr/argophp/"} target="_blank"><img src={Argophp} alt="Argonautes en php" /></a>
                                 </div>
                                 <div class="text-center mt-2">
                                     <section class="fleche">
@@ -82,7 +82,7 @@ const Main = () => {
                         <article class="col-sm-3 col-lg-3">
                             <div class="justify-content-center p-3">
                                 <div class="image row justify-content-center d-flex flex-wrap align-items-center mt-2">
-                                    <img src={Stickers} alt="Stickers en php" />
+                                   <a href={"http://delphinerodriguezdev.fr/stickersphp/"} target="_blank"><img src={Stickers} alt="Stickers en php" /></a>
                                 </div>
                                 <div class="text-center mt-2">
                                     <section class="fleche">
