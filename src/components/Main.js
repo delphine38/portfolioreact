@@ -23,13 +23,13 @@ const Main = () => {
                     <h3 class="text-center pt-5 mb-5 pe-5 me-5" id="realisationcompetences">Mes compétences</h3>
                         <div class="row flex-wrap text-center">
                             <article class="competences col-sm-3 col-lg-3">
-                                <h2><u>Maquettage</u></h2>
+                                <h2>Maquettage</h2>
                                 <h4>Figma</h4>
                                 <img src={Figma} alt="figma" />
                             </article>
 
                             <article class="competences col-sm-3 col-lg-3">
-                                <h2><u>Front-end</u></h2>
+                                <h2>Front-end</h2>
                                 <h4>HTML, CSS</h4>
                                 <h4>REACT.js</h4>
                                 <h4>JAVASCRIPT</h4>
@@ -40,7 +40,7 @@ const Main = () => {
                             </article>
 
                             <article class="competences col-sm-3 col-lg-3">
-                                <h2><u>Back-end</u></h2>
+                                <h2>Back-end</h2>
                                 <h4>PHP</h4>
                                 <h4>SYMFONY</h4>
                                 <img src={Vscode} alt="vscode" />
@@ -48,7 +48,7 @@ const Main = () => {
                             </article>
 
                             <article class="competences col-sm-3 col-lg-3">
-                                <h2><u>Base de Données</u></h2>
+                                <h2>Base de Données</h2>
                                 <h4>MySql</h4>
                                 <img src={PhpMyAdmin} alt="mySql" width="100px" />
                             </article>
