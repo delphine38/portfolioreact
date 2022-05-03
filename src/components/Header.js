@@ -3,7 +3,8 @@ import React from "react";
 import Logo from '../logo.svg';
 
 import Logodelphine from "../images/logodelphinerodriguez.png";
-import Delphine from "../images/delphinesept21.jpg";
+import Delphine from "../images/delphinemai22.jpg";
+// import Delphine from "../images/delphinesept21.jpg";
 import Logodev from "../images/logodev.png";
 
 const Header = () => {
