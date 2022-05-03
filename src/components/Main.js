@@ -56,11 +56,14 @@ const Main = () => {
                 </div>
 
                 <div class="realisation row">
+                    {/* titre mes realisations */}
                     <div class="row w-100 p-3 d-flex justify-content-center">
                         <h3 class="text-center pt-5 mb-5 pe-5 me-5" id="realisationcompetences">Mes réalisations</h3>
                     </div>
 
+                    {/* mes realisations */}                   
                     <div class="container-fluid row  d-flex justify-content-center">
+                        {/* argophp */}
                         <article class="article col-sm-3 col-lg-3">
                             <div class="justify-content-center p-3">
                                 <div class="image row justify-content-center d-flex flex-wrap align-items-center mt-2">
@@ -72,15 +75,16 @@ const Main = () => {
                                         <a href={"http://delphinerodriguezdev.fr/argophp/"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
                                     </section>
                                     </section>
-                                    <button class="bcompetences">Php et PhpMyAdmin</button>
+                                    <span class="bcompetences">Php et PhpMyAdmin</span>
                                 </div>
                                 <div className="github">
                                     <a href={"https://github.com/delphine38/argophp"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
                                 </div>
-                                    <h5>Ici argo php bientôt</h5>
+                                    <h5>Application pour ajouter des noms à une liste</h5>
                             </div>
                         </article>
 
+                        {/* stickersphp */}
                         <article class="col-sm-3 col-lg-3">
                             <div class="justify-content-center p-3">
                                 <div class="image row justify-content-center d-flex flex-wrap align-items-center mt-2">
@@ -90,16 +94,17 @@ const Main = () => {
                                     <section class="fleche">
                                         <a href={"http://delphinerodriguezdev.fr/stickersphp/"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
                                     </section>
-                                    <button class="bcompetences">Php et PhpMyAdmin</button>
+                                    <span class="bcompetences">Php et PhpMyAdmin</span>
                                 </div>
 
                                 <div className="github">
                                     <a href={"https://github.com/delphine38/stickersphp"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
                                 </div>
-                                    <h5>Stickers php bientot</h5>
+                                    <h5>Stickersphp est un site de Stickers et de Flockages. <br /> Vous pouvez voir un échantillon de ce que la personne peut faire sur vos -> tee-shirts, tasses ou autres et demander des informations</h5>
                             </div>       
                         </article>
 
+                        {/* testdecalculjavascript */}
                         <article class="col-sm-3 col-lg-3">
                             <div class="justify-content-center h-100 p-3">
                                 <div class="image row justify-content-center  h-80 d-flex flex-wrap align-items-center mt-2">
@@ -109,8 +114,8 @@ const Main = () => {
                                     <section class="fleche">
                                         <a href={"https://delphine38.github.io/testdecalculjavascript"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
                                     </section>
-                                        <button class="bcompetences">html</button>
-                                        <button class="bcompetences">Javascript</button>
+                                        <span class="bcompetences">html</span>
+                                        <span class="bcompetences">Javascript</span>
                                 </div>
                                 <div className="github">
                                     <a href={"https://github.com/delphine38/testdecalculjavascript"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
@@ -119,28 +124,29 @@ const Main = () => {
                             </div>
                         </article>
 
+                        {/* compteurreact */}
                         <article class="col-sm-3 col-lg-3">
                             <div class="justify-content-center h-100 p-3">
                             <div class="image row justify-content-center  h-80 d-flex flex-wrap align-items-center mt-2">
-                                <a href={"https://delphine38.github.io/compteurreact"} target="_blank"><img src={Compteurreact} alt="compteur en react" />
+                                <a href={"https://compteurreact.netlify.app/"} target="_blank"><img src={Compteurreact} alt="compteur en react" />
                                 </a>
                             </div>
-                            {/* <div class="text-center mt-2">
+                            <div class="text-center mt-2">
                                 <section class="fleche">
-                                    <a href={"https://delphine38.github.io/compteurreact/"} target="_blank"><img src={Iconefleche}
+                                    <a href={"https://compteurreact.netlify.app/"} target="_blank"><img src={Iconefleche}
                                         alt="compteur en react" />
                                     </a>
                                 </section>
-                            </div> */}
+                            </div>
 
                             <div class="text-center mt-2">
-                                <button class="bcompetences">react</button>
+                                <span class="bcompetences">React.js</span>
                             </div>
                             <div className="github">
                                     <a href={"https://github.com/delphine38/compteurreact"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
                                 </div>
                             
-                            <h5 class="text-left">Application en react pour ajouter ou enlever</h5>
+                            <h5 class="text-left">Application en React.js pour ajouter ou enlever</h5>
                             </div>
                         </article>
 
@@ -166,6 +172,10 @@ const Main = () => {
                     <p>Bienvenue sur Mon lien GitHub</p>
                 </a>
 
+            
+            <div class="github">
+                <a href={"https://github.com/delphine38"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
+            </div>
             </div>
         </div>
     );
