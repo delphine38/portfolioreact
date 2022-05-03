@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolioreact/static/css/main.baa1c7cd.css",
+    "main.js": "/portfolioreact/static/js/main.3dd4564a.js",
+    "static/js/787.df06223f.chunk.js": "/portfolioreact/static/js/787.df06223f.chunk.js",
+    "static/media/delphinesept21.jpg": "/portfolioreact/static/media/delphinesept21.94d6685f69cc56dd1647.jpg",
+    "static/media/stikers.jpg": "/portfolioreact/static/media/stikers.bafab087364c5eaeacff.jpg",
+    "static/media/github.png": "/portfolioreact/static/media/github.a51a0e9556dcee004574.png",
+    "static/media/webStorm.png": "/portfolioreact/static/media/webStorm.57c385e07ed7a3c24f07.png",
+    "static/media/vscode.png": "/portfolioreact/static/media/vscode.7776d7b8725ad563585c.png",
+    "static/media/argophp.jpg": "/portfolioreact/static/media/argophp.21540e09a7aeb5f04cbd.jpg",
+    "static/media/logodev.png": "/portfolioreact/static/media/logodev.190b79d8079e835746d6.png",
+    "static/media/compteurreact.png": "/portfolioreact/static/media/compteurreact.b2a3d1934b1cbc81856f.png",
+    "static/media/mathsjs.png": "/portfolioreact/static/media/mathsjs.7f39195a350814e03302.png",
+    "static/media/logodelphinerodriguez.png": "/portfolioreact/static/media/logodelphinerodriguez.1999b2a5783fe57bd32f.png",
+    "static/media/iconefleche.png": "/portfolioreact/static/media/iconefleche.38488dab74d7dded0234.png",
+    "static/media/logo.svg": "/portfolioreact/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portfolioreact/index.html",
+    "main.baa1c7cd.css.map": "/portfolioreact/static/css/main.baa1c7cd.css.map",
+    "main.3dd4564a.js.map": "/portfolioreact/static/js/main.3dd4564a.js.map",
+    "787.df06223f.chunk.js.map": "/portfolioreact/static/js/787.df06223f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.baa1c7cd.css",
+    "static/js/main.3dd4564a.js"
+  ]
+}
