@@ -12,6 +12,7 @@ import Github from '../images/github.png';
 import PhpMyAdmin from '../images/phpMyAdmin.png';
 import Crudessai from '../images/crudreactnodesql.jpg'
 import Velosymfony from '../images/velosymfony.jpg'
+import Maladies from '../images/maladies.jpg'
 
 const Main = () => {
     return(
@@ -88,6 +89,7 @@ const Main = () => {
                                     <h5>Application non déployer qui permet en local d'ajouter, modifier, supprimer</h5>
                             </div>
                         </article>
+
 
                         {/* projet en cours velosymfony */}
                         <article class="article col-sm-3 col-lg-3">
@@ -170,6 +172,23 @@ const Main = () => {
                                     <a href={"https://github.com/delphine38/testdecalculjavascript"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
                                 </div>
                                 <h5 class="text-left">Application pour réviser ses Maths</h5>
+                            </div>
+                        </article>
+
+                        {/* Blog sur les maladies rares*/}
+                        <article class="article col-sm-3 col-lg-3">
+                            <div class="justify-content-center p-3">
+                                <div class="image row justify-content-center d-flex flex-wrap align-items-center mt-2">
+                                  <img src={Maladies} alt="Blog sur des maladies rares" />
+                                </div>
+                                <div class="text-center mt-2">
+                                    <span class="bcompetences">Angular</span>
+                                    
+                                </div>
+                                <div className="github">
+                                    <a href={"https://github.com/delphine38/blog"} target="_blank"><img src={Github} alt="gitHub de maladies" width="10px" /></a>
+                                </div>
+                                    <h5>Début de blog de maladies rares</h5>
                             </div>
                         </article>
 
