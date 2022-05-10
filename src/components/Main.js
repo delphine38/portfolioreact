@@ -11,6 +11,7 @@ import Stickers from '../images/stikers.jpg';
 import Github from '../images/github.png';
 import PhpMyAdmin from '../images/phpMyAdmin.png';
 import Crudessai from '../images/crudreactnodesql.jpg'
+import Velosymfony from '../images/velosymfony.jpg'
 
 const Main = () => {
     return(
@@ -85,6 +86,28 @@ const Main = () => {
                                     <a href={"https://github.com/delphine38/crudreactnodeclient"} target="_blank"><img src={Github} alt="gitHub de crud" width="10px" /></a>
                                 </div>
                                     <h5>Application non déployer qui permet en local d'ajouter, modifier, supprimer</h5>
+                            </div>
+                        </article>
+
+                        {/* projet en cours velosymfony */}
+                        <article class="article col-sm-3 col-lg-3">
+                            <div class="justify-content-center p-3">
+                                <div class="image row justify-content-center d-flex flex-wrap align-items-center mt-2">
+                                  <img src={Velosymfony} alt="vélo tous et handicapé avec symfony" />
+                                </div>
+                                <div class="text-center mt-2">
+                                    {/* <section class="fleche">
+                                        <section class="fleche">
+                                        <a href={"http://delphinerodriguezdev.fr/velosymfony/"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
+                                        </section>
+                                    </section> */}
+                                    <span class="bcompetences">Symfony</span>
+                                    <span class="bcompetences">PhpMyAdmin</span>
+                                </div>
+                                <div className="github">
+                                    <a href={"https://github.com/delphine38/velosymfony2"} target="_blank"><img src={Github} alt="gitHub de vélo symfony" width="10px" /></a>
+                                </div>
+                                    <h5>Application de vélos pour tous et pour handicapés en cours de codage</h5>
                             </div>
                         </article>
 
