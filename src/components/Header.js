@@ -21,6 +21,7 @@ const Header = () => {
 
                     <section class="dev col-lg-3 col-sm-2 py-5">
                         <img src={Logodev} alt="logo dev" width="100%" />
+                        <h4>Junior</h4>
                         <h4>Région Lyonnaise et remote</h4>
                         <p>Motivée et dynamique, 😉 je prends plaisir à coder et à m'améliorer pour accroître mes
                             compétences dans ce monde merveilleux du numérique. <br />
