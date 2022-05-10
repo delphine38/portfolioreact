@@ -186,7 +186,7 @@ const Main = () => {
                                     
                                 </div>
                                 <div className="github">
-                                    <a href={"https://github.com/delphine38/blog"} target="_blank"><img src={Github} alt="gitHub de maladies" width="10px" /></a>
+                                    <a href={"https://github.com/delphine38/blogmaladiesang"} target="_blank"><img src={Github} alt="gitHub de maladies" width="10px" /></a>
                                 </div>
                                     <h5>Début de blog de maladies rares</h5>
                             </div>
