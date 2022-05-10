@@ -10,6 +10,7 @@ import Argophp from '../images/argophp.jpg';
 import Stickers from '../images/stikers.jpg';
 import Github from '../images/github.png';
 import PhpMyAdmin from '../images/phpMyAdmin.png';
+import Crudessai from '../images/crudreactnodesql.jpg'
 
 const Main = () => {
     return(
@@ -63,6 +64,31 @@ const Main = () => {
 
                     {/* mes realisations */}                   
                     <div class="container-fluid row  d-flex justify-content-center">
+
+                        {/* crud react.js node sql */}
+                        <article class="article col-sm-3 col-lg-3">
+                            <div class="justify-content-center p-3">
+                                <div class="image row justify-content-center d-flex flex-wrap align-items-center mt-2">
+                                  <img src={Crudessai} alt="essai react node sql" />
+                                </div>
+                                <div class="text-center mt-2">
+                                    {/* <section class="fleche">
+                                        <section class="fleche">
+                                        <a href={"http://delphinerodriguezdev.fr/argophp/"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
+                                        </section>
+                                    </section> */}
+                                    <span class="bcompetences">React.js</span>
+                                    <span class="bcompetences">Node.js</span>
+                                    <span class="bcompetences">sql</span>
+                                </div>
+                                <div className="github">
+                                    <a href={"https://github.com/delphine38/crudreactnodeclient"} target="_blank"><img src={Github} alt="gitHub de crud" width="10px" /></a>
+                                </div>
+                                    <h5>Application non déployer qui permet en local d'ajouter, modifier, supprimer</h5>
+                            </div>
+                        </article>
+
+
                         {/* argophp */}
                         <article class="article col-sm-3 col-lg-3">
                             <div class="justify-content-center p-3">
