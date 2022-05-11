@@ -179,16 +179,20 @@ const Main = () => {
                         <article class="article col-sm-3 col-lg-3">
                             <div class="justify-content-center p-3">
                                 <div class="image row justify-content-center d-flex flex-wrap align-items-center mt-2">
-                                  <img src={Maladies} alt="Blog sur des maladies rares" />
+                                  <a href={"https://maladiesrares.netlify.app/"} target="_blank"><img src={Maladies} alt="Blog sur des maladies rares" /></a>
                                 </div>
                                 <div class="text-center mt-2">
+                                    <section class="fleche">
+                                        <a href={"https://maladiesrares.netlify.app/"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
+                                    </section>
+                                    
                                     <span class="bcompetences">Angular</span>
                                     
                                 </div>
                                 <div className="github">
                                     <a href={"https://github.com/delphine38/blogmaladiesang"} target="_blank"><img src={Github} alt="gitHub de maladies" width="10px" /></a>
                                 </div>
-                                    <h5>Début de blog de maladies rares</h5>
+                                    <h5>Blog sur les maladies rares</h5>
                             </div>
                         </article>
 
