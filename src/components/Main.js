@@ -15,6 +15,10 @@ import Velosymfony from '../images/velosymfony.jpg'
 import Maladies from '../images/maladies.jpg'
 
 const Main = () => {
+
+//      handleClick = () => {
+//     console.log('Cliqué');
+//   }
     return(
         <div className="main">
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary" id="mySidenav">
@@ -227,6 +231,11 @@ const Main = () => {
                     </div>
 
                 </div>
+                {/* <button a href={"https://github.com/delphine38/cvdevreact"}>jljk</button> */}
+                
+                <a target="_blank" class="buttoncv" href="https://cvdevreact.netlify.app/">Voir mon CV</a>
+
+                
 
             </section>
 
@@ -236,7 +245,8 @@ const Main = () => {
                         <h4 class="text-center pt-5 mb-5">Contactez-moi : Via Linkedin 🙂 </h4>
                     </a>
 
-                    <p class="text-center">Ou par mail : delphine38@live.fr</p>
+            <a class="buttoncv" href="mailto:delphine38@live.fr?body=">M'envoyer un email</a>
+            {/* <a class="buttoncv" href="mailto:delphine38@live.fr?body=">M'envoyer un email</a> */}
                 </div>
             </div>
             <div class="github pb-5 text-center">
