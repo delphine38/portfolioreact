@@ -20,7 +20,7 @@ const Main = () => {
 //     console.log('Cliqué');
 //   }
     return(
-        <div className="main">
+        <div className="backgroundColor">
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary" id="mySidenav">
 
             </nav>
@@ -239,26 +239,7 @@ const Main = () => {
 
             </section>
 
-            <div class="contact pt-5">
-                <div id="contact">
-                    <a class="text-white" href={"https://www.linkedin.com/in/delphine-rodriguez/"} target="_blank">
-                        <h4 class="text-center pt-5 mb-5">Contactez-moi : Via Linkedin 🙂 </h4>
-                    </a>
-
-            <a class="buttoncv" href="mailto:delphine38@live.fr?body=">M'envoyer un email</a>
-            {/* <a class="buttoncv" href="mailto:delphine38@live.fr?body=">M'envoyer un email</a> */}
-                </div>
-            </div>
-            <div class="github pb-5 text-center">
-                <a href={"https://github.com/delphine38"} target="_blank">
-                    <p>Bienvenue sur Mon lien GitHub</p>
-                </a>
-
             
-            <div class="github">
-                <a href={"https://github.com/delphine38"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
-            </div>
-            </div>
         </div>
     );
 }
