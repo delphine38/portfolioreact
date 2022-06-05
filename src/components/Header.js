@@ -14,8 +14,8 @@ const Header = () => {
                 <section class="row">
                     <section class="logo col-lg-3 col-sm-12 m-5">
                         <img src={Logodelphine} alt="logo delphine" />
-                        <section class="delphine">
-                            <img src={Delphine} alt="image de delphine" width="40%" />
+                        <section>
+                            <img src={Delphine} alt="image de delphine" width="50%" height="50%" className="delphine" />
                         </section>
                     </section>
 

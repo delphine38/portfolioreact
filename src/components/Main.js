@@ -3,9 +3,9 @@ import React from "react";
 import Figma from '../images/figma.png';
 import Vscode from '../images/vscode.png';
 import WebStorm from '../images/webStorm.png';
-import Mathsjs from '../images/mathsjs.png';
+import Mathsjs from '../images/mathsjs.jpg';
 import Iconefleche from '../images/iconefleche.png';
-import Compteurreact from '../images/compteurreact.png';
+import Compteurreact from '../images/compteurreact.jpg';
 import Argophp from '../images/argophp.jpg';
 import Stickers from '../images/stikers.jpg';
 import Github from '../images/github.png';
@@ -73,160 +73,142 @@ const Main = () => {
 
                         {/* crud react.js node sql */}
                         <article class="article col-sm-3 col-lg-3">
-                            <div class="justify-content-center p-3">
-                                <div class="image row justify-content-center d-flex flex-wrap align-items-center mt-2">
-                                  <img src={Crudessai} alt="essai react node sql" />
-                                </div>
-                                <div class="text-center mt-2">
-                                    {/* <section class="fleche">
+                            <div class="img-wrapper">
+                                <img class="card-img-top" src={Crudessai} alt="essai react node sql" />
+                            </div>
+                            <div class="text-center mt-2">
+                                {/* <section class="fleche">
                                         <section class="fleche">
                                         <a href={"http://delphinerodriguezdev.fr/argophp/"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
                                         </section>
                                     </section> */}
                                     <span class="bcompetences">React.js</span>
-                                    <span class="bcompetences">Node.js</span>
-                                    <span class="bcompetences">sql</span>
-                                </div>
-                                <div className="github">
-                                    <a href={"https://github.com/delphine38/crudreactnodeclient"} target="_blank"><img src={Github} alt="gitHub de crud" width="10px" /></a>
-                                </div>
-                                    <h5>Application non déployer qui permet en local d'ajouter, modifier, supprimer</h5>
+                                        <span class="bcompetences">Node.js</span>
+                                            <span class="bcompetences">sql</span>
                             </div>
+                            <div className="github">
+                                <a href={"https://github.com/delphine38/crudreactnodeclient"} target="_blank"><img src={Github} alt="gitHub de crud" width="10px" /></a>
+                            </div>
+                            <h5>Application non déployer qui permet en local d'ajouter, modifier, supprimer</h5>
                         </article>
 
 
                         {/* projet en cours velosymfony */}
                         <article class="article col-sm-3 col-lg-3">
-                            <div class="justify-content-center p-3">
-                                <div class="image row justify-content-center d-flex flex-wrap align-items-center mt-2">
-                                  <img src={Velosymfony} alt="vélo tous et handicapé avec symfony" />
-                                </div>
-                                <div class="text-center mt-2">
-                                    {/* <section class="fleche">
+                            <div class="img-wrapper">
+                                <img class="card-img-top"  src={Velosymfony} alt="vélo tous et handicapé avec symfony" />
+                            </div>
+                            <div class="text-center mt-2">
+                                {/* <section class="fleche">
                                         <section class="fleche">
-                                        <a href={"http://delphinerodriguezdev.fr/velosymfony/"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
+                                            <a href={"http://delphinerodriguezdev.fr/velosymfony/"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
                                         </section>
                                     </section> */}
                                     <span class="bcompetences">Symfony</span>
-                                    <span class="bcompetences">PhpMyAdmin</span>
-                                </div>
-                                <div className="github">
-                                    <a href={"https://github.com/delphine38/velosymfony2"} target="_blank"><img src={Github} alt="gitHub de vélo symfony" width="10px" /></a>
-                                </div>
-                                    <h5>Application de vélos pour tous et pour handicapés en cours de codage</h5>
+                                        <span class="bcompetences">PhpMyAdmin</span>
                             </div>
+                            <div className="github">
+                                <a href={"https://github.com/delphine38/velosymfony2"} target="_blank"><img src={Github} alt="gitHub de vélo symfony" width="10px" /></a>
+                            </div>
+                                <h5>Application de vélos pour tous et pour handicapés en cours de codage</h5>
                         </article>
-
 
                         {/* argophp */}
                         <article class="article col-sm-3 col-lg-3">
-                            <div class="justify-content-center p-3">
-                                <div class="image row justify-content-center d-flex flex-wrap align-items-center mt-2">
-                                  <a href={"http://delphinerodriguezdev.fr/argophp/"} target="_blank"><img src={Argophp} alt="Argonautes en php" /></a>
-                                </div>
-                                <div class="text-center mt-2">
+                            <div class="img-wrapper">
+                                <a href={"http://delphinerodriguezdev.fr/argophp/"} target="_blank"><img class="card-img-top"  src={Argophp} alt="Argonautes en php" /></a>
+                            </div>
+                            <div class="text-center mt-2">
+                                <section class="fleche">
                                     <section class="fleche">
-                                        <section class="fleche">
                                         <a href={"http://delphinerodriguezdev.fr/argophp/"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
                                     </section>
-                                    </section>
+                                </section>
                                     <span class="bcompetences">Php et PhpMyAdmin</span>
-                                </div>
-                                <div className="github">
-                                    <a href={"https://github.com/delphine38/argophp"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
-                                </div>
-                                    <h5>Application pour ajouter des noms à une liste</h5>
                             </div>
+                            <div className="github">
+                                <a href={"https://github.com/delphine38/argophp"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
+                            </div>
+                                <h5>Application pour ajouter des noms à une liste</h5>
+                            
                         </article>
 
                         {/* stickersphp */}
-                        <article class="col-sm-3 col-lg-3">
-                            <div class="justify-content-center p-3">
-                                <div class="image row justify-content-center d-flex flex-wrap align-items-center mt-2">
-                                   <a href={"http://delphinerodriguezdev.fr/stickersphp/"} target="_blank"><img src={Stickers} alt="Stickers en php" /></a>
-                                </div>
-                                <div class="text-center mt-2">
+                        <article class="article col-sm-3 col-lg-3">
+                            <div class="img-wrapper">
+                                <a href={"http://delphinerodriguezdev.fr/stickersphp/"} target="_blank"><img src={Stickers} alt="Stickers en php" /></a>
+                            </div>
+                            <div class="text-center mt-2">
+                                <section class="fleche">
                                     <section class="fleche">
                                         <a href={"http://delphinerodriguezdev.fr/stickersphp/"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
                                     </section>
+                                </section>
                                     <span class="bcompetences">Php et PhpMyAdmin</span>
-                                </div>
-
-                                <div className="github">
-                                    <a href={"https://github.com/delphine38/stickersphp"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
-                                </div>
-                                    <h5>Stickersphp est un site de Stickers et de Flockages. <br /> Vous pouvez voir un échantillon de ce que la personne peut faire sur vos -> tee-shirts, tasses ou autres et demander des informations</h5>
-                            </div>       
+                            </div>
+                            <div className="github">
+                                <a href={"https://github.com/delphine38/stickersphp"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
+                            </div>
+                                <h5>Application pour ajouter des noms à une liste</h5>
                         </article>
 
                         {/* testdecalculjavascript */}
-                        <article class="col-sm-3 col-lg-3">
-                            <div class="justify-content-center h-100 p-3">
-                                <div class="image row justify-content-center  h-80 d-flex flex-wrap align-items-center mt-2">
-                                    <a href={"https://delphine38.github.io/testdecalculjavascript"} target="_blank"><img src={Mathsjs} alt="revision de maths" /></a>
-                                </div>
-                                <div class="text-center mt-2">
+                        <article class="article col-sm-3 col-lg-3">
+                            <div class="img-wrapper">
+                                <a href={"https://delphine38.github.io/testdecalculjavascript"} target="_blank"><img src={Mathsjs} alt="revision de maths" /></a>
+                            </div>
+                            <div class="text-center mt-2">
+                                <section class="fleche">
                                     <section class="fleche">
                                         <a href={"https://delphine38.github.io/testdecalculjavascript"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
                                     </section>
-                                        <span class="bcompetences">html</span>
-                                        <span class="bcompetences">Javascript</span>
-                                </div>
-                                <div className="github">
-                                    <a href={"https://github.com/delphine38/testdecalculjavascript"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
-                                </div>
-                                <h5 class="text-left">Application pour réviser ses Maths</h5>
+                                </section>
+                                    <span class="bcompetences">html</span>
+                                    <span class="bcompetences">Javascript</span>
                             </div>
+                            <div className="github">
+                                <a href={"https://github.com/delphine38/testdecalculjavascript"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
+                            </div>
+                                <h5 class="text-left">Application pour réviser ses Maths</h5>
                         </article>
 
                         {/* Blog sur les maladies rares*/}
                         <article class="article col-sm-3 col-lg-3">
-                            <div class="justify-content-center p-3">
-                                <div class="image row justify-content-center d-flex flex-wrap align-items-center mt-2">
-                                  <a href={"https://maladiesrares.netlify.app/"} target="_blank"><img src={Maladies} alt="Blog sur des maladies rares" /></a>
-                                </div>
-                                <div class="text-center mt-2">
-                                    <section class="fleche">
-                                        <a href={"https://maladiesrares.netlify.app/"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
-                                    </section>
-                                    
-                                    <span class="bcompetences">Angular</span>
-                                    
-                                </div>
-                                <div className="github">
-                                    <a href={"https://github.com/delphine38/blogmaladiesang"} target="_blank"><img src={Github} alt="gitHub de maladies" width="10px" /></a>
-                                </div>
-                                    <h5>Blog sur les maladies rares</h5>
-                            </div>
-                        </article>
-
-                        {/* compteurreact */}
-                        <article class="col-sm-3 col-lg-3">
-                            <div class="justify-content-center h-100 p-3">
-                            <div class="image row justify-content-center  h-80 d-flex flex-wrap align-items-center mt-2">
-                                <a href={"https://compteurreact.netlify.app/"} target="_blank"><img src={Compteurreact} alt="compteur en react" />
-                                </a>
+                            <div class="img-wrapper">
+                                <a href={"https://maladiesrares.netlify.app/"} target="_blank"><img src={Maladies} alt="Blog sur des maladies rares" /></a>
                             </div>
                             <div class="text-center mt-2">
                                 <section class="fleche">
-                                    <a href={"https://compteurreact.netlify.app/"} target="_blank"><img src={Iconefleche}
-                                        alt="compteur en react" />
-                                    </a>
+                                    <section class="fleche">
+                                        <a href={"https://maladiesrares.netlify.app/"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
+                                    </section>
                                 </section>
-                            </div>
-
-                            <div class="text-center mt-2">
-                                <span class="bcompetences">React.js</span>
+                                    <span class="bcompetences">Angular</span>
                             </div>
                             <div className="github">
-                                    <a href={"https://github.com/delphine38/compteurreact"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
-                                </div>
-                            
-                            <h5 class="text-left">Application en React.js pour ajouter ou enlever</h5>
+                                <a href={"https://github.com/delphine38/blogmaladiesang"} target="_blank"><img src={Github} alt="gitHub de maladies" width="10px" /></a>
                             </div>
+                                <h5>Blog sur les maladies rares</h5>
                         </article>
 
-
+                        {/* compteurreact */}
+                        <article class="article col-sm-3 col-lg-3">
+                            <div class="img-wrapper">
+                                <a href={"https://compteurreact.netlify.app/"} target="_blank"><img src={Compteurreact} alt="compteur en react" /></a>
+                            </div>
+                            <div class="text-center mt-2">
+                                <section class="fleche">
+                                    <section class="fleche">
+                                        <a href={"https://compteurreact.netlify.app/"} target="_blank"><img src={Iconefleche} alt="compteur en react" /></a>
+                                    </section>
+                                </section>
+                                    <span class="bcompetences">React.js</span>
+                            </div>
+                            <div className="github">
+                                <a href={"https://github.com/delphine38/compteurreact"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
+                            </div>
+                                <h5 class="text-left">Application en React.js pour ajouter ou enlever</h5>
+                        </article>
 
                     </div>
 
