@@ -116,14 +116,15 @@ const Main = () => {
                         {/* argophp */}
                         <article class="article col-sm-3 col-lg-3">
                             <div class="img-wrapper">
-                                <a href={"http://delphinerodriguezdev.fr/argophp/"} target="_blank"><img class="card-img-top"  src={Argophp} alt="Argonautes en php" /></a>
+                                {/* <a href={"http://delphinerodriguezdev.fr/argophp/"} target="_blank"><img class="card-img-top"  src={Argophp} alt="Argonautes en php" /></a> */}
+                                <img class="card-img-top"  src={Argophp} alt="Argonautes en php" />
                             </div>
                             <div class="text-center mt-2">
-                                <section class="fleche">
+                                {/* <section class="fleche">
                                     <section class="fleche">
                                         <a href={"http://delphinerodriguezdev.fr/argophp/"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
                                     </section>
-                                </section>
+                                </section> */}
                                     <span class="bcompetences">Php et PhpMyAdmin</span>
                             </div>
                             <div className="github">
@@ -136,14 +137,15 @@ const Main = () => {
                         {/* stickersphp */}
                         <article class="article col-sm-3 col-lg-3">
                             <div class="img-wrapper">
-                                <a href={"http://delphinerodriguezdev.fr/stickersphp/"} target="_blank"><img src={Stickers} alt="Stickers en php" /></a>
+                                {/* <a href={"http://delphinerodriguezdev.fr/stickersphp/"} target="_blank"><img src={Stickers} alt="Stickers en php" /></a> */}
+                                <img src={Stickers} alt="Stickers en php" />
                             </div>
                             <div class="text-center mt-2">
-                                <section class="fleche">
+                                {/* <section class="fleche">
                                     <section class="fleche">
                                         <a href={"http://delphinerodriguezdev.fr/stickersphp/"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
                                     </section>
-                                </section>
+                                </section> */}
                                     <span class="bcompetences">Php et PhpMyAdmin</span>
                             </div>
                             <div className="github">
