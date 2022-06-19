@@ -27,27 +27,27 @@ const Contact = () => {
                     
                     </form>
 
-        <div class="contact pt-5">
-                <div id="contact">
-                    <a class="text-white" href={"https://www.linkedin.com/in/delphine-rodriguez/"} target="_blank">
-                        <h4 class="text-center pt-5 mb-5">Via Linkedin 🙂 </h4>
+                    <div class="contact pt-5">
+                        <div id="contact">
+                            <a class="text-white" href={"https://www.linkedin.com/in/delphine-rodriguez/"} target="_blank">
+                                <h4 class="text-center pt-5 mb-5">Via Linkedin 🙂 </h4>
+                            </a>
+
+                            <a class="buttoncv" href="mailto:delphine38@live.fr?body=">M'envoyer un email</a>
+                                {/* <a class="buttoncv" href="mailto:delphine38@live.fr?body=">M'envoyer un email</a> */}
+                        </div>
+                    </div>
+                <div class="github pb-5 text-center">
+                    <a href={"https://github.com/delphine38"} target="_blank">
+                        <p>Visitez Mon GitHub</p>
                     </a>
 
-            <a class="buttoncv" href="mailto:delphine38@live.fr?body=">M'envoyer un email</a>
-            {/* <a class="buttoncv" href="mailto:delphine38@live.fr?body=">M'envoyer un email</a> */}
+                
+                    <div class="github">
+                        <a href={"https://github.com/delphine38"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
+                    </div>
                 </div>
             </div>
-            <div class="github pb-5 text-center">
-                <a href={"https://github.com/delphine38"} target="_blank">
-                    <p>Visitez Mon GitHub</p>
-                </a>
-
-            
-            <div class="github">
-                <a href={"https://github.com/delphine38"} target="_blank"><img src={Github} alt="gitHub de stickers" width="10px" /></a>
-            </div>
-            </div>
-    </div>
             
             {/* <div class="navigation nav-bar pt-3 nav justify-content-center mx-auto">
                 <ul>
