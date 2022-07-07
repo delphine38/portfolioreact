@@ -10,9 +10,10 @@ import Argophp from '../images/argophp.jpg';
 import Stickers from '../images/stikers.jpg';
 import Github from '../images/github.png';
 import PhpMyAdmin from '../images/phpMyAdmin.png';
-import Crudessai from '../images/crudreactnodesql.jpg'
-import Velosymfony from '../images/velosymfony.jpg'
-import Maladies from '../images/maladies.jpg'
+import Crudessai from '../images/crudreactnodesql.jpg';
+import Velosymfony from '../images/velosymfony.jpg';
+import Maladies from '../images/maladies.jpg';
+import CrudJavascript from '../images/crudjavascript.jpg';
 
 const Main = () => {
 
@@ -70,6 +71,28 @@ const Main = () => {
 
                     {/* mes realisations */}                   
                     <div class="container-fluid row  d-flex justify-content-center">
+
+
+                        {/* crud Javascript */}
+                        <article class="article col-sm-3 col-lg-3">
+                            <div class="img-wrapper">
+                                <a href={"https://createreadupdatedeletejavascript.netlify.app/"} target="_blank">
+                                    <img class="card-img-top" src={CrudJavascript} alt="exercice C.R.U.D en javascript" />
+                                </a>
+                            </div>
+                            <div class="text-center mt-2">
+                                <section class="fleche">
+                                        <section class="fleche">
+                                        <a href={"https://createreadupdatedeletejavascript.netlify.app/"} target="_blank"><img src={Iconefleche} alt="image de fleche" /></a>
+                                        </section>
+                                    </section>
+                                    <span class="bcompetences">Javascript</span>
+                            </div>
+                            <div className="github">
+                                <a href={"https://github.com/delphine38/CreateReadUpdateDelete"} target="_blank"><img src={Github} alt="gitHub de C.R.U.D. en javascript" width="10px" /></a>
+                            </div>
+                            <h5>exercice en javascript pour lister les missions à réalisés</h5>
+                        </article>
 
                         {/* crud react.js node sql */}
                         <article class="article col-sm-3 col-lg-3">
